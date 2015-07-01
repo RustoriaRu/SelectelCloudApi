@@ -4,7 +4,7 @@ api select cloud api
 api method https://support.selectel.ru/storage/api_info/
 
 ## Exemple
-Получаем список доступных контейнеров пользоватея
+Получить список доступных контейнеров пользователя
 ```python
 from selectel_cloud_api import ApiSelectelCloud
 
@@ -35,3 +35,7 @@ print(response.status_code)
 * 204 (No Content) - при успешном удалении
 * 404 (Not Found) - указанный контейнер не существует
 * 409 (Conflict) - ошибка удаления, контейнер не пустой
+
+---
+
+Все согласно документации https://support.selectel.ru/storage/api_info/
