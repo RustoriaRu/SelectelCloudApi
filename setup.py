@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='selectel_cloud_api',
-    version='1.0',
+    version='1.1',
     packages=find_packages(),
     install_requires='selectel_cloud_api',
     url='https://github.com/RustoriaRu/SelectelCloudApi',
