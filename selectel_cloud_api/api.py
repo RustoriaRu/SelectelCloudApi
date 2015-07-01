@@ -75,7 +75,9 @@ class Api(object):
     def __call__(self, method_name, **kwargs):
         method = method_name.pop()
         url = '/%s' % '/'.join(method_name)
-        kwargs['timeout'] = self.timeout
+        if 'timeout' not in kwargs:
+            kwargs['timeout'] = self.timeout
+
         return self.send_method(url=url, method=method, **kwargs)
 
     def __getattr__(self, method_name):
