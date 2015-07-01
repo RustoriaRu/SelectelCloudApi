@@ -4,7 +4,7 @@ api select cloud api
 api method https://support.selectel.ru/storage/api_info/
 
 ## Exemple
-Получаем список доступных контейнеров пользователю 
+Получаем список доступных контейнеров пользоватея
 ```python
 from selectel_cloud_api import ApiSelectelCloud
 
