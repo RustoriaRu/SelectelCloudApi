@@ -42,7 +42,6 @@ class Api(object):
 
         if self.url:
             url = '%s%s' % (self.url.rstrip('/'), url)
-            print(url)
             headers.update({'X-Auth-Token': self.token})
         else:
             url = 'https://auth.selcdn.ru%s' % (url, )
