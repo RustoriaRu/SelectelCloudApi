@@ -1,9 +1,9 @@
 # SelectelCloudApi
-api select cloud api 
+Python wrapper for Selectel cloud storage API
 
-api method https://support.selectel.ru/storage/api_info/
+Документация https://support.selectel.ru/storage/api_info/
 
-## Exemple
+## Примеры использования
 Получить список доступных контейнеров пользователя
 ```python
 from selectel_cloud_api import ApiSelectelCloud
@@ -38,4 +38,3 @@ print(response.status_code)
 
 ---
 
-Все согласно документации https://support.selectel.ru/storage/api_info/
